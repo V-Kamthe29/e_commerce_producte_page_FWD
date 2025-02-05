@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> E-Commerce Product Page</title>
+  <link rel="stylesheet" href="ecomstyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo"></div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="cart-icon">🛒 Kart_For_Free</div>
+    </div>
+  </header>
+
+  <main class="product-page">
+    <section class="product-details">
+      <div class="container">
+        <div class="image-gallery">
+          <img id="main-image" src="https://m.media-amazon.com/images/I/51Yb7OorFVL.jpg" alt="Product Image">
+          <div class="thumbnail-gallery">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRjiR1iTVse0tNg0v4Fej940gaTqYPWvooAuQrl9nSBMAIuLpQhVCXFWk44p4Sx2ofbd7KXJA-GplvNY_1-0QMaqxAZxZEOTIqfF9t6R3c_fUthm8oxqXpf" alt="Product Thumbnail" onclick="changeImage('product-image1.jpg')">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcREILycWGzzmRdBqY1UJxOCzHVy0eeROGRLuq16WO2tWKgDYof7usgWCj7DhVxnbKLc4uEpHii3P-EsjVtdWKFBCcUKhphM_8Qr6qcHtpeUF2eA7OLxHrtA" alt="Product Thumbnail" onclick="changeImage('product-image2.jpg')">
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT8779QhhC45N29Sp-dzRYQ-l-jKGb8NuVwErOjM8Zunt03t3EdhQhixFZMgPVYYft-j_ffz2Ov0Prxa8ksYNbsZMF7XJ6mjNOOb3XQfiim" alt="Product Thumbnail" onclick="changeImage('product-image3.jpg')">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSLpId7hp-EWo6txrSVomwcHCzzeze_pMZwiV0VedzWd8bR4P_Tc9MjjCZk6sQEAd8-JTXRTTk13DqaRs_jzNMU4rpnACA7Esav7Rr4zz4" alt="Thumbnail 4">
+          </div>
+        </div>
+
+        <div class="product-info">
+          <h1 class="product-name">Pigeon Healthifry Digital Air Fryer</h1>
+          <p class="product-description">Experience guilt-free frying with the Pigeon Healthifry Digital Air Fryer. Designed for health-conscious food lovers, this air fryer allows you to indulge in your favorite fried foods, such as meat, pastries, and crispy potato chips, using up to 85% less oil. With a generous 4.2-liter capacity, you can easily prepare ample servings of delicious French fries, samosas, and chicken nuggets without the added worry of excess oil.</p>
+         
+          
+          <!-- New Specifications Section -->
+          <h2>Product Specifications</h2>
+          <ul>
+            <li><strong>Air Fryer Capacity:</strong> 4.2 liters capacity is enough to enjoy your favorite french fries, samosas, and nuggets without the worry.</li>
+            <li><strong>Technology:</strong> 360° High Speed Air Circulation Technology: Air fryers work by circulating hot air around a food item to create the same crispiness as traditional fried foods.</li>
+            <li><strong>Dimensions:</strong> 30.00cm x 22.00cm x 29.00cm</li>
+            <li><strong>Power:</strong> 1200 watts</li>
+            <li><strong>Cooking Basket Capacity:</strong> 4.2 liters</li>
+            <li><strong>Control Panel:</strong> Digital with Presets</li>
+            <li><strong>Temperature Controller:</strong> Adjustable</li>
+            <li><strong>Timer:</strong> Yes</li>
+            <li><strong>Cleaning:</strong> Easy with Non-Stick Basket</li>
+          </ul>
+          <p class="product-price">₹4999</p>
+          
+          <div class="actions">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+          <p><strong>Rama Singh</strong>: "Amazing product! The sound quality is fantastic."</p>
+        </div>
+        <div class="review">
+          <p><strong>Ashu Kumar</strong>: "Best purchase ever! Worth every penny."</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="related-products">
+      <div class="container">
+        <h2>Related Products</h2>
+        <div class="related-items">
+          <div class="related-item">
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTpHh8zLxaG93yc9wbbjoHLS9vlu9lkyP4tcBTVb4nrs_tmuKQZl-v8ULNgwmp3tv4_GyhTOACKRKDoclDmW5K8a6l6nq7XqDAhmyNPQ2MPciw0r7strlw_Xw" alt="Related Product">
+            <p>Philips Air Fryer NA120/00</p>
+            <p class="related-price">₹4999</p>
+          </div>
+          <div class="related-item">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRtnInNqPD53hyaY-8UwDm9jAky7m_Ld_Rx3WHQmaQ6zf7GPR-f2MgAN7rZf6rVVgJHdEpn6tIH5EEww1czsvR1760ReYKXz_ZTzKXReQu3Vaz3FTj-5bGd-w" alt="Related Product">
+            <p>Prestige Nutrifry Digital Air Fryer</p>
+            <p class="related-price">₹3900</p>
+          </div>
+          <div class="related-item">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSc0vh1ZbK9qG8iagcN9REeIjpvOM7Yc2H0WH23JW_aERLctQU5gX8NOIr9ZSwxBNDege9Hhn9jiLl_r14cs4ezO6IFWEUGMJQ8Z4MsQDKUrVbVpFGaAPkuU7Eo" alt="Related Product">
+            <p>Regency Air Fryer</p>
+            <p class="related-price">₹2499</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Kart_For_Free. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#privacy">Privacy Policy</a></li>
+        <li><a href="#terms">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    function changeImage(imageSrc) {
+      document.getElementById('main-image').src = imageSrc;
+    }
+  </script>
+</body>
+</html>
